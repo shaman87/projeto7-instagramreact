@@ -200,6 +200,11 @@
     margin-right: 6px;
   }
 
+  .naoCurtir {
+    color: black;
+    margin-right: 6px;
+  }
+
   .post .fundo .curtidas {
     display: flex;
     align-items: center;

@@ -19,15 +19,15 @@ const dadosPosts = [
 
 export default function Esquerda() {
     return (
-        <div class="esquerda">
-            <div class="stories">
+        <div className="esquerda">
+            <div className="stories">
                 {dadosStories.map(stories => <Story src={stories.src} titulo={stories.titulo} />)}
-                <div class="setinha">
+                <div className="setinha">
                     <ion-icon name="chevron-forward-circle"></ion-icon>
                 </div>
             </div>
 
-            <div class="posts">
+            <div className="posts">
                 {dadosPosts.map(posts => <Post 
                     imgTopo={posts.imgTopo} 
                     tituloTopo={posts.tituloTopo} 

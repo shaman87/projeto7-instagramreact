@@ -15,11 +15,11 @@ const dadosSugestoes = [
 
 export default function Sidebar() {
     return (
-        <div class="sidebar">
+        <div className="sidebar">
             {dadosUsuario.map(usuarioDados => <Usuario url={usuarioDados.url} usuario={usuarioDados.usuario} nome={usuarioDados.nome} />)}
 
-            <div class="sugestoes">
-                <div class="titulo">
+            <div className="sugestoes">
+                <div className="titulo">
                     Sugestões para você
                     <div>Ver tudo</div>
                 </div>
@@ -27,11 +27,11 @@ export default function Sidebar() {
                 {dadosSugestoes.map(sugestoes => <Sugestao img={sugestoes.img} nome={sugestoes.nome} razao={sugestoes.razao} />)}
             </div>
 
-            <div class="links">
+            <div className="links">
                 Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
             </div>
 
-            <div class="copyright">
+            <div className="copyright">
                 © 2021 INSTAGRAM DO FACEBOOK
             </div>
         </div>
