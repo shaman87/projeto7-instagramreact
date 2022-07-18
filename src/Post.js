@@ -2,15 +2,12 @@ import React from "react";
 
 export default function Post(props) {
     const [botaoCurtir, setCurtir] = React.useState("heart-outline");
-    const [corCurtir, setCorCurtir] = React.useState("naoCurtir");
 
     function curtir() {
         if(botaoCurtir === "heart-outline") {
             setCurtir("heart");
-            setCorCurtir("curtir");
         } else {
             setCurtir("heart-outline");
-            setCorCurtir("naoCurtir");
         }
     }
 
@@ -27,13 +24,13 @@ export default function Post(props) {
             </div>
 
             <div className="conteudo">
-                <img src={props.imgConteudo} />
+                <img src={props.imgConteudo} onClick={() => setCurtir("heart")}/>
             </div>
 
             <div className="fundo">
                 <div className="acoes">
                     <div>
-                        <ion-icon name={botaoCurtir} className={corCurtir} onClick={curtir}></ion-icon>
+                        <ion-icon name={botaoCurtir} onClick={curtir}></ion-icon>
                         <ion-icon name="chatbubble-outline"></ion-icon>
                         <ion-icon name="paper-plane-outline"></ion-icon>
                     </div>

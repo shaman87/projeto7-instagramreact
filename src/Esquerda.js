@@ -13,8 +13,9 @@ const dadosStories = [
 ];
 
 const dadosPosts = [
-    {imgTopo: "assets/img/meowed.svg", tituloTopo:"meowed", imgConteudo: "assets/img/gato-telefone.svg", imgCurtidas: "assets/img/respondeai.svg", curtidasUsuario: "respondeai", curtidasNumero: "101.523"},
-    {imgTopo: "assets/img/barked.svg", tituloTopo:"barke", imgConteudo: "assets/img/dog.svg", imgCurtidas: "assets/img/adorable_animals.svg", curtidasUsuario: "adorable_animals", curtidasNumero: "99.159"}
+    {imgTopo: "assets/img/meowed.svg", tituloTopo:"meowed", imgConteudo: "assets/img/gato-telefone.svg", imgCurtidas: "assets/img/respondeai.svg", curtidasUsuario: "respondeai", curtidasNumero: "101.523"}, 
+    {imgTopo: "assets/img/barked.svg", tituloTopo:"barke", imgConteudo: "assets/img/dog.svg", imgCurtidas: "assets/img/adorable_animals.svg", curtidasUsuario: "adorable_animals", curtidasNumero: "99.159"}, 
+    {imgTopo: "assets/img/smallcutecats.svg", tituloTopo:"smallcutecats", imgConteudo: "assets/img/cuteness-overload.jpg", imgCurtidas: "assets/img/razoesparaacreditar.svg", curtidasUsuario: "razoesparaacreditar", curtidasNumero: "125.627"}
 ];
 
 export default function Esquerda() {

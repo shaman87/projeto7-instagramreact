@@ -195,13 +195,8 @@
     margin-right: 6px;
   }
   
-  .curtir {
+  ion-icon[name=heart] {
     color: red;
-    margin-right: 6px;
-  }
-
-  .naoCurtir {
-    color: black;
     margin-right: 6px;
   }
 
